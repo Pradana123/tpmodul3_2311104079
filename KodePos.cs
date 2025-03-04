@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tpmodul3_2311104071
+namespace tpmodul3_2311104079
 {
     class KodePos
     {
