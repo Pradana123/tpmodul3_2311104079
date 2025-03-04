@@ -1,4 +1,3 @@
-
 using tpmodul3_2311104071;
 
 class Program
@@ -11,8 +10,17 @@ class Program
 
         KodePos kodePos = new KodePos();
 
-        Console.WriteLine(kodePos.getKodePos("Margasari")); // Output: 40266
+        Console.WriteLine(kodePos.getKodePos("Margasari"));
 
+
+        
+        KodePos KodePos = new KodePos();
+        Console.WriteLine("Kode Pos Margasari: " + kodePos.getKodePos("Margasari")); 
+
+      
+        DoorMachine door = new DoorMachine();
+        door.BukaPintu();
+        door.KunciPintu(); 
 
 
     }
